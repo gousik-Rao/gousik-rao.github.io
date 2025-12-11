@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gousik Rao | Software Engineer & AI Aspirant</title>
+    <style>
+        :root {
+            --bg-color: #0F172A; /* Deep Carbon */
+            --text-color: #E2E8F0;
+            --accent-blue: #38BDF8; /* Electric Blue */
+            --accent-green: #4ADE80; /* Volt Green */
+            --card-bg: #1E293B;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+        }
+        /* Navbar */
+        nav {
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo { font-weight: bold; font-size: 1.5rem; color: var(--accent-blue); }
+        
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 5rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+        .highlight { color: var(--accent-blue); }
+        .subtitle { font-size: 1.25rem; color: #94A3B8; margin-bottom: 2rem; }
+        .btn {
+            display: inline-block;
+            background: var(--accent-blue);
+            color: #000;
+            padding: 0.8rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: translateY(-3px); background: #fff; }
+
+        /* Sections */
+        .container { max-width: 1000px; margin: 0 auto; padding: 4rem 1rem; }
+        h2 { border-left: 5px solid var(--accent-green); padding-left: 1rem; margin-bottom: 2rem; }
+
+        /* Grid Layouts */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+        .card:hover { border-color: var(--accent-blue); }
+
+        /* The Athlete Section */
+        .athlete-section {
+            background: linear-gradient(180deg, rgba(15,23,42,0) 0%, rgba(30,41,59,0.5) 100%);
+            border-radius: 15px;
+            padding: 3rem;
+            text-align: center;
+            margin-top: 2rem;
+            border: 1px solid var(--accent-green);
+        }
+
+        /* Footer */
+        footer { text-align: center; padding: 2rem; color: #64748B; font-size: 0.9rem; }
+        
+        /* Responsive */
+        @media (max-width: 768px) { h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Gousik.dev</div>
+        <div>
+            <a href="mailto:gousikthason@gmail.com" style="color:white; text-decoration:none;">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Hi, I'm <span class="highlight">Gousik Rao</span></h1>
+        <p class="subtitle">Software Engineer (Java/Spring Boot) | Incoming M.Sc. Candidate (Germany 2026)</p>
+        <a href="#projects" class="btn">View My Projects</a>
+    </section>
+
+    <div class="container">
+        <h2>🎯 The Vision: AI Infrastructure</h2>
+        <p>Currently bridging the gap between robust <strong>Backend Engineering</strong> and <strong>AI Integration</strong>. My goal is to architect scalable AI systems in the German tech ecosystem.</p>
+        <br>
+        
+        <div style="margin-bottom: 3rem;">
+            <img src="https://img.shields.io/badge/Java-Spring_Boot-38BDF8?style=for-the-badge&logo=spring" alt="Spring Boot">
+            <img src="https://img.shields.io/badge/PostgreSQL-Database-38BDF8?style=for-the-badge&logo=postgresql" alt="Postgres">
+            <img src="https://img.shields.io/badge/Docker-DevOps-38BDF8?style=for-the-badge&logo=docker" alt="Docker">
+            <img src="https://img.shields.io/badge/AI-Gemini_API-4ADE80?style=for-the-badge&logo=google" alt="Gemini">
+        </div>
+
+        <div class="athlete-section">
+            <h3 style="color: var(--accent-green);">⚡ The High-Performance Mindset</h3>
+            <p>My code runs on the same discipline I bring to sports.</p>
+            <div class="grid" style="margin-top:2rem; text-align:left;">
+                <div>
+                    <strong>🏆 Strategy</strong><br>
+                    Like resource management in <i>Clash of Clans</i>, I optimize system resources and database queries for maximum efficiency.
+                </div>
+                <div>
+                    <strong>⏱ Endurance</strong><br>
+                    Debugging complex race conditions requires the same mental stamina and focus as a competitive match.
+                </div>
+            </div>
+        </div>
+
+        <h2 id="projects" style="margin-top: 4rem;">📂 Featured Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>🛒 E-Commerce AI Backend</h3>
+                <p style="color:#94A3B8; font-size:0.9rem;">Spring Boot • PostgreSQL • Gemini AI</p>
+                <p>Engineered a modular backend with an <strong>AI-driven recommendation engine</strong> (Gemini API) to personalize user shopping experiences.</p>
+                <a href="#" style="color:var(--accent-blue);">View Code →</a>
+            </div>
+            <div class="card">
+                <h3>💬 Secure Messaging App</h3>
+                <p style="color:#94A3B8; font-size:0.9rem;">Java • Spring Security • JWT</p>
+                <p>Migrated legacy Servlet architecture to Spring Boot, reducing boilerplate by 30%. Implemented Role-Based Access Control.</p>
+                <a href="#" style="color:var(--accent-blue);">View Code →</a>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 4rem;">📊 GitHub Activity</h2>
+        <div style="text-align: center;">
+            <img src="https://github-readme-stats.vercel.app/api?username=gousik-rao&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1E293B&title_color=38BDF8&text_color=E2E8F0" alt="GitHub Stats" style="max-width:100%; height:auto;">
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Gousik Rao. Built for Performance.</p>
+    </footer>
+
+</body>
+</html>
