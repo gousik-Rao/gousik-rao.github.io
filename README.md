@@ -1,64 +1,68 @@
+# Hi, I'm Gousik Rao. <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-# Hi, I'm Gousik.
+> **Software Engineer | Backend Specialist (Java/Spring Boot)**
+> *Incoming M.Sc. Candidate (Germany, Summer 2026)*
 
-> **Computer Science Undergraduate | Full-Stack Developer**
-> *Aspiring AI Engineer & Architect | Incoming Master's Candidate (Germany 2026)*
-
----
-
-### 🎯 Vision: AI Infrastructure & LLMs
-My long-term goal is to transition from building robust web applications to architecting the **AI infrastructures of the future**.
-* **The Goal:** To work as an AI Engineer within the German tech ecosystem, focusing on the scalability and deployment of Large Language Models (LLMs).
-* **The Path:** Leveraging my strong foundation in Backend Engineering (Java/Spring Boot) to understand the "plumbing" required to support massive AI systems, while specializing in AI during my Master's.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gousik-software-engineer)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-c14438?style=for-the-badge&logo=gmail)](mailto:gousikthason@gmail.com)
 
 ---
 
-### ⚡ The High-Performance Mindset (Sports & Strategy)
-I believe that physical resilience fuels mental sharpness. My career is defined by the intersection of **Software Engineering** and an **Athlete's Discipline**.
+### 🎯 Vision: AI & Infrastructure
+My goal is to architect scalable **AI Infrastructures** in the German tech ecosystem. I bridge the gap between robust **Backend Engineering** and **AI Integration** (LLMs).
 
-* **🏁 The Athlete's Edge:** As a sports player, I am trained in endurance and split-second decision-making. I bring this same intensity to coding—treating deployment deadlines like game days and debugging like tactical defense.
-* **🎮 Strategic Gaming:** My interest in strategy games (*Clash of Clans, GTA V*) isn't just a hobby; it’s a practice in resource management and economy balancing—skills that translate directly to optimizing database queries and system resources.
-* **🎧 Flow State:** Powered by high-tempo music (Hans Zimmer, Anirudh), I cultivate deep focus sessions to solve complex architectural problems.
+* **Current Focus:** Mastering Microservices & Cloud Native Architectures.
+* **Long-term:** Specializing in AI Engineering for supply chain and industrial applications.
 
 ---
 
 ### 🛠 Technical Arsenal
 
-| **Backend & Systems** | **AI & Data Interest** | **Tools & DevOps** |
+| **Backend & Core** | **Data & DevOps** | **AI & Tools** |
 | :--- | :--- | :--- |
-| ☕ Java (Spring Boot) | 🐍 Python (Basics) | 🐳 Docker & Kubernetes |
-| 🐘 PostgreSQL | 🤖 LLM Concepts | 🐙 Git / GitHub Actions |
-| 🔌 RESTful APIs | 📊 Data Structures | ☁️ AWS (Foundational) |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) | ![Gemini AI](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlebard&logoColor=white) |
+| ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring-security&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) |
 
 ---
 
-### ⏱ Experience Timeline
+### 🚀 Experience Timeline
 
-**Software Engineer Intern** | *Uniq Solutions*
-*(Jan 2024 – June)*
-* **Key Contribution:** Engineered a microservices architecture using Spring Boot, laying the groundwork for scalable data handling.
-* **Soft Skill:** Adapted to agile workflows, mirroring a sports team's collaborative dynamic.
+**Software Engineer Intern** | *Uniq Technologies*
+*(Dec 2024 – June 2025)*
+* **AI Integration:** Implemented an AI-driven product recommendation engine using the **Gemini AI API**.
+* **System Design:** Engineered a complete E-commerce backend (Cart, Order, Catalog) modules.
+* **Impact:** Delivered a modular, scalable system under agile mentorship.
 
-**Web Developer Intern** | *Shiash Info Solutions*
-*(September 2023 – Dec 2023)*
-* **Key Contribution:** Developed a full-stack inventory management system using Java and SQL.
-
----
-
-### 📂 Project Spotlight
-
-#### 1. [Quick Cart] (Java/PostgreSQL)
-*A high-performance inventory tracking system.*
-* **Tech:** Spring Boot, Hibernate, PostgreSQL.
-* **Why it matters:** Demonstrates my ability to build stable backend systems required for data-heavy AI applications.
-* [View Code](#) | [Live Demo](#)
-
-#### 2. [Messaging Web App]
-*Real-time web application.*
-* **Tech:** Java, React.
-* **Status:** Polishing for Master's Application Showcase.
-* [View Code](#)
+**Java Full Stack Intern** | *Shiash Info Solutions*
+*(Sept 2024 – Nov 2024)*
+* **Legacy Migration:** Led the complete migration of a messaging app from **Java Servlets to Spring Boot**, reducing boilerplate code by ~30%.
+* **Security:** Implemented **JWT Authentication** and Role-Based Access Control (Spring Security).
+* **DevOps:** Built a CI pipeline using **GitHub Actions** for automated testing.
 
 ---
 
-[📧 Email Me](mailto:gousikthason@gmail.com) | [🔗 LinkedIn](https://www.linkedin.com/in/gousik-software-engineer/) | [🔗 GitHub](https://www.github.com/gousik-Rao) | [📄 Download Resume](https://github.com/user-attachments/files/24097709/Gousik_Rao_CV_EURO.pdf)
+### 📂 Featured Projects
+
+#### 1. [E-Commerce Backend with Gemini AI](https://github.com/gousik-Rao/quick-cart-project)
+*A smart retail engine with AI recommendations.*
+* **Tech:** Spring Boot, PostgreSQL, Google Gemini API.
+* **Key Feature:** Intelligent product suggestions based on user behavior.
+
+#### 2. [Secure Messaging Platform](https://github.com/gousik-Rao/Secure-Messaging)
+*Real-time communication system.*
+* **Tech:** Spring Boot, Spring Data JPA, JWT, MySQL.
+* **Key Achievement:** Reduced development time by 30% through architectural refactoring.
+
+---
+
+### ⚡ The "Athlete" Mindset
+I bring the discipline of a sports player to software engineering.
+* **Strategy:** Like resource management in *Clash of Clans*, I optimize database queries for maximum efficiency.
+* **Endurance:** Debugging complex race conditions requires the same mental stamina as a high-intensity 90-minute match or a 5-day endurance match.
+* **Flow:** Powered by high-tempo music (Hans Zimmer), I maintain deep focus during deployment cycles.
+
+---
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=gousik-rao&show_icons=true&theme=tokyonight&hide_border=true" alt="Gousik's GitHub Stats" />
+</p>
