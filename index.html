@@ -34,6 +34,83 @@
         }
 
         * { box-sizing: border-box; transition: background-color 0.3s, color 0.3s; }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 260px;
+            background: #1E293B; /* Matches your dashboard look */
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            position: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            z-index: 100; /* Ensures it stays on top */
+        }
+        
+        /* Sidebar Branding */
+        .profile-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #38BDF8, #A78BFA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 3rem;
+        }
+    
+        /* Navigation Links */
+        .nav-links a {
+            display: block;
+            color: #94A3B8;
+            text-decoration: none;
+            padding: 0.8rem 0;
+            font-size: 1.1rem;
+            transition: 0.3s;
+            border-bottom: 1px solid transparent;
+        }
+        .nav-links a:hover {
+            color: #38BDF8; /* Electric Blue on hover */
+            padding-left: 10px;
+        }
+
+        /* Main Content Adjustment (To prevent hiding behind sidebar) */
+        .main-content {
+            margin-left: 260px; /* Must match sidebar width */
+            padding: 4rem;
+            width: 100%;
+        }
+        
+        /* Responsive Fix: Stack sidebar on top for mobile */
+        @media (max-width: 900px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                padding: 1rem;
+                flex-direction: row;
+                align-items: center;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                border-right: none;
+            }
+            .nav-links { display: flex; gap: 1rem; }
+            .nav-links a { font-size: 0.9rem; padding: 0; }
+            .main-content { margin-left: 0; padding: 2rem; } 
+        }
+        
+        /* Specific Grid for Coding Stats (LeetCode/GFG) */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Forces 2 equal columns */
+            gap: 1.5rem;
+        }
+
+        /* Mobile Fix: Stack them on small screens */
+        @media (max-width: 900px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
         
         body {
             font-family: 'Inter', sans-serif;
@@ -100,7 +177,30 @@
         }
         .card:hover { border-color: var(--accent); }
         
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        /* Container for the Certificates */
+    .cert-grid {
+        display: grid;
+        /* This forces exactly two columns of equal width */
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    /* Certificate Image Styling */
+    .cert-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover; /* Prevents stretching/distortion */
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Mobile Fix: Stack into 1 column on small screens */
+    @media (max-width: 900px) {
+        .cert-grid {
+            grid-template-columns: 1fr;
+        }
+    }
         
         h2 { font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 10px; }
         h3 { margin-top: 0; }
@@ -115,7 +215,22 @@
     </style>
 </head>
 <body>
+    <aside class="sidebar">
+    <div class="profile-brand">Gousik.dev</div>
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#stats">Stats</a>
+        <a href="#certs">Credentials</a>
+        <a href="#athlete">The Athlete</a>
+    </nav>
+    <div style="font-size: 0.8rem; color: #94A3B8;">
+        © 2025 Gousik Rao<br>Targeting Germany 🇩🇪
+    </div>
+    </aside>
 
+    <main class="main-content">
+    
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle Dark Mode">
         <svg id="icon-theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
     </button>
@@ -195,8 +310,9 @@
             </div>
         </div>
 
+        <section id="certs">
         <h2>📜 Credentials & Internships</h2>
-        <div class="grid">
+        <div class="cert-grid">
             
             <div class="card">
                 <img src="cert-uniq.png" alt="Uniq Cert" class="cert-img">
@@ -219,7 +335,7 @@
             <div class="card">
                 <img src="cert-iit.png" alt="IIT Cert" class="cert-img">
                 <h3>Java Training Certificate</h3>
-                <p style="color:var(--text-muted); font-size:0.9rem;">IIT Bombay (Spoken Tutorial) • <em>March 2022</em></p>
+                <p style="color:var(--text-muted); font-size:0.9rem;">IIT Bombay (Spoken Tutorial) • <em>March 2022</em> </p>
                 <div style="margin-top:10px;">
                     <span class="tag">Academic</span> <span class="tag">Excellence</span>
                 </div>
@@ -235,6 +351,7 @@
             </div>
 
         </div>
+        </section>
 
         <h2>📊 GitHub Activity</h2>
         <div style="text-align:center;">
