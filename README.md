@@ -63,6 +63,10 @@ I bring the discipline of a sports player to software engineering.
 * **Flow:** Powered by high-tempo music (Hans Zimmer), I maintain deep focus during deployment cycles.
 
 ---
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=gousik-rao&show_icons=true&theme=tokyonight&hide_border=true" alt="Gousik's GitHub Stats" />
-</p>
+<h2>📊 GitHub Activity</h2>
+        <div style="text-align:center;">
+             <img src="https://github-readme-streak-stats.herokuapp.com/?user=gousik-Rao&theme=tokyonight&hide_border=true&background=0F172A&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" 
+                 alt="GitHub Streak" 
+                 style="width:100%; 
+                 max-width:800px;">
+        </div>
